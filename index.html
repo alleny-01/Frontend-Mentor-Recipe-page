@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Recipe page</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -12,7 +12,7 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     body{
-      background-color: burlywood;
+      background-color: #f3e5d8;
   }
     main{
       margin: 0 auto;
@@ -20,6 +20,7 @@
       width: 500px;
       border-radius: 1em;
       padding: 1em;
+      margin-top: 6em;
     }
     .first{
       margin-left: 3em;
@@ -66,11 +67,11 @@
     }
     @font-face{
       font-family: 'Young Serif';
-      src: url("YoungSerif-Regular.ttf");
+      src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
     }
     @font-face{
       font-family: 'Outfit';
-      src: url("Outfit-VariableFont_wght.ttf");
+      src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
       font-style: normal;
     }
     h1, h2{
@@ -114,7 +115,7 @@
     font-weight: bold;
    }
    /* MEDIA QUERIES */
-   @media screen and (max-width: 400px){
+   @media screen and (max-width: 480px){
    main{
       margin: 0 auto;
       background-color: white;
@@ -130,7 +131,7 @@
 </head>
 <body>
   <main>
-  <img src="image-omelette.jpeg" alt="Image Omelette" class="first">
+  <img src="./assets/images/image-omelette.jpeg" alt="Image Omelette" class="first">
   <h1>Simple Omelette Recipe</h1>
 
   <p> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
